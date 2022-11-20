@@ -20,30 +20,30 @@ void setup()
   appHeight = height;
   //
   //Population
-  pic = loadImage("./New Images/071-8da4.jpg");
-  pic2 = loadImage("./New Images/th.jpg");
-  pic3 = loadImage("./New Images/th (1).jpg");
+  pic = loadImage("../Images Used/Landscape/Tommy-Shelby.jpg");
+  pic2 = loadImage("../Images Used/Landscape/Aubameyang.jpg");
+  pic3 = loadImage("../Images Used/Portrait/Deadpool.jpg");
   backgroundImageX = appWidth*0;
   backgroundImageY = appHeight*0;
   backgroundImageWidth = appWidth-1;
   backgroundImageHeight = appHeight-1;
-  topHalfX = appWidth * 1/10;
-  topHalfY = appHeight * 1/12;
-  topHalfWidth = appWidth * 8/10;
-  topHalfHeight = appHeight * 4/12;
-  bottomHalfX = appWidth *1/10;
-  bottomHalfY = appHeight * 7/12;
-  bottomHalfWidth = appWidth * 8/10;
-  bottomHalfHeight = appHeight * 4/12;
+  topHalfX = appWidth * 1/4;
+  topHalfY = appHeight * 1/20;
+  topHalfWidth = appWidth * 1/2;
+  topHalfHeight = appHeight * 13/20;
+  bottomHalfX = appWidth *1/2;
+  bottomHalfY = appHeight * 3/4;
+  bottomHalfWidth = appWidth * 1/4;
+  bottomHalfHeight = appHeight * 4/20;
   //
   //Image Dimensions for Aspect Ratio: image meta data
   //Note: meta explored in MP3's or music files
   //Note: Dimensions are found in the image file / Right Click / Properties / Details
-  int picWidth1 = 800; //071-8da4 Landscape
+  int picWidth1 = 800; //Tommy Shelby Landscape
   int picHeight1 = 600;
-  int picWidth2 = 860; //th Landscape
+  int picWidth2 = 860; //Aubameyang Landscape
   int picHeight2 = 529;
-  int picWidth3 = 325; //th (1) Portrait
+  int picWidth3 = 325; //Deadpool Portrait
   int picHeight3 = 485;
   //
   //Image Orientation: Landscape, Portrait, Square
